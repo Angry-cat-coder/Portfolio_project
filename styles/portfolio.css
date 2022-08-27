@@ -1,22 +1,35 @@
-//font-family: 'Permanent Marker', cursive;
-font-family: "Playfair Display", serif;
-font-family: "Poppins", sans-serif;
-body {
-  background: lightgray;
-}
 h1 {
   font-family: "Playfair Display", serif;
-  text-align: center;
 }
-p {
+p,
+h2,
+h3 {
   font-family: "Poppins", sans-serif;
-  font-size: 36px;
-  text-align: center;
 }
-a {
-  display: block;
-  margin: 0 auto;
-}
+
 footer {
   font-size: 36px;
+}
+.hero {
+  background: lightgray;
+  text-align: center;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+
+  margin-bottom: 0px;
+}
+
+.hero h1 {
+  font-size: 96px;
+}
+.hero h2 {
+  font-size: 24px;
+  line-height: 2;
+  margin-bottom: 15px;
+}
+.contact {
+  padding: 25px 40px;
+  margin-bottom: 15px;
 }
