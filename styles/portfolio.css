@@ -1,3 +1,8 @@
+:root {
+  --font-color: #404040;
+  --primary-color: lightgray;
+  --reverse-color: grey;
+}
 h1 {
   font-family: "Playfair Display", serif;
 }
@@ -11,14 +16,14 @@ footer {
   font-size: 36px;
 }
 .hero {
-  background: lightgray;
+  background: var(--primary-color);
   text-align: center;
-  color: #404040;
+  color: var(--font-color);
+  padding: 160px 0;
 }
 .hero p {
   font-size: 36px;
   font-weight: bold;
-
   margin-bottom: 0px;
 }
 
@@ -34,10 +39,10 @@ footer {
   padding: 15px 20px;
   margin-bottom: 15px;
   font-size: 18px;
-  box-shadow: 10px 5px 5px gray;
+  box-shadow: 10px 5px 5px var(--reverse-color);
 }
 .contact:hover {
-  background-color: gray;
-  color: white;
+  background-color: var(--font-color);
+  color: var(--primary-color);
   border: none !important;
 }
