@@ -1,0 +1,23 @@
+//font-family: 'Permanent Marker', cursive;
+font-family: "Playfair Display", serif;
+font-family: "Poppins", sans-serif;
+body {
+  background: lightgray;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+footer {
+  font-size: 36px;
+}
