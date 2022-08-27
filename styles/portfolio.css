@@ -13,6 +13,7 @@ footer {
 .hero {
   background: lightgray;
   text-align: center;
+  color: #404040;
 }
 .hero p {
   font-size: 36px;
@@ -30,6 +31,13 @@ footer {
   margin-bottom: 15px;
 }
 .contact {
-  padding: 25px 40px;
+  padding: 15px 20px;
   margin-bottom: 15px;
+  font-size: 18px;
+  box-shadow: 10px 5px 5px gray;
+}
+.contact:hover {
+  background-color: gray;
+  color: white;
+  border: none !important;
 }
