@@ -3,11 +3,11 @@
   --primary-color: lightgray;
   --reverse-color: grey;
 }
-h1 {
+h1,
+h2 {
   font-family: "Playfair Display", serif;
 }
 p,
-h2,
 h3 {
   font-family: "Poppins", sans-serif;
 }
@@ -34,11 +34,13 @@ footer {
   font-size: 24px;
   line-height: 2;
   margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
 }
+
 .contact {
   padding: 15px 20px;
   margin-bottom: 15px;
-  margin-top: 15px;
+  margin-top: 30px;
   font-size: 18px;
   box-shadow: 10px 5px 5px var(--reverse-color);
 }
@@ -52,4 +54,18 @@ footer {
 }
 .bg-navi {
   background-color: var(--primary-color) !important;
+}
+h2 {
+  font-size: 45px;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.launch {
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 18px;
+  box-shadow: 10px 5px 5px var(--reverse-color);
 }
