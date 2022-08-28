@@ -38,6 +38,7 @@ footer {
 }
 
 .contact {
+  opacity: 0.7;
   padding: 15px 20px;
   margin-bottom: 15px;
   margin-top: 30px;
@@ -57,15 +58,39 @@ footer {
 }
 h2 {
   font-size: 45px;
+  color: var(--font-color);
 }
 p {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 30px;
+  opacity: 0.7;
 }
 .launch {
+  opacity: 0.7;
   padding: 15px 20px;
   margin-bottom: 15px;
   margin-top: 15px;
   font-size: 18px;
   box-shadow: 10px 5px 5px var(--reverse-color);
+}
+img {
+  padding: 70px 150px;
+}
+.images {
+  background-color: var(--primary-color);
+}
+.project-description {
+  padding: 100px 50px;
+}
+@media (max-width: 960px) {
+  .hero h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
