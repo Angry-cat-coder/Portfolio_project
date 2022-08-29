@@ -32,72 +32,97 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-navi ">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Yulia Isaenko</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav d-flex justify-content-end">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
-            <a class="nav-link" href="/about.html">About</a>
-            <a class="nav-link" href="/about.html#contact">Contact</a>
-            <a
-              class="nav-link"
-              href="https://www.linkedin.com/in/yulia-isaenko-5458625b/"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
-            <a class="nav-link" href="https://www.facebook.com/y.isaenko">
-              <i class="fa-brands fa-facebook"></i
-            ></a>
-             <a class="nav-link" href="https://www.facebook.com/y.isaenko"><i class="fa-brands fa-github"></i><a
-          ></div>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-navi">
+        <div class="container-fluid">
+          <a class="navbar-brand text-muted fw-semibold" href="#"
+            >Yulia Isaenko</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a
+                class="nav-link active text-muted fw-semibold"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+              <a class="nav-link" href="/about.html">About</a>
+              <a class="nav-link" href="/about.html#contact">Contact</a>
+              <a
+                class="nav-link"
+                href="https://www.linkedin.com/in/yulia-isaenko-5458625b/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a class="nav-link" href="https://www.facebook.com/y.isaenko">
+                <i class="fa-brands fa-facebook"></i
+              ></a>
+              <a class="nav-link" href="https://www.facebook.com/y.isaenko">
+                <i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <p>Hello, I am</p>
+        <h1>Yulia Isaenko</h1>
+        <h2>Front-end developer from Kyiv, Ukraine</h2>
+        <div class="d-flex justify-content-center skills">
+          <i class="fa-brands fa-css3-alt m-2"></i>
+          <i class="fa-brands fa-html5 m-2"></i>
+          <i class="fa-brands fa-js m-2"></i>
+          <i class="fa-brands fa-github m-2"></i>
+          <i class="fa-brands fa-bootstrap m-2"></i>
+        </div>
+        <a href="#" class="btn border border-dark contact"> Contact me </a>
+      </div>
+      <p class="text-center m-5">My selected projects</p>
+      <div class="container">
+        <div class="row">
+          <div class="col bg-light d-none d-md-block">
+            <img
+              src="/src/Weather-app.jpg"
+              alt="Weather-app"
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col">
+            <div class="project-description">
+              <h2 class="mb-4">Weather App Project</h2>
+              <p class="mb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+                omnis quam vel eos eveniet alias temporibus deserunt veritatis
+                minima fugiat explicabo eum dolore.
+              </p>
+              <a
+                href="https://aquamarine-starburst-bf640c.netlify.app/"
+                class="btn border launch"
+              >
+                Launch Weather App</a
+              >
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-    <div class="hero">
-      <p>Hello, I am</p>
-      <h1>Yulia Isaenko</h1>
-      <h2>Front-end developer from Kyiv, Ukraine</h2>
-      <div class="d-flex justify-content-center skills">
-        <i class="fa-brands fa-css3-alt m-2"></i>
-        <i class="fa-brands fa-html5 m-2"></i>
-        <i class="fa-brands fa-js m-2"></i>
-        <i class="fa-brands fa-github m-2"></i>
-        <i class="fa-brands fa-bootstrap m-2"></i>
-      </div>
-      <a href="#" class="btn border border-dark contact"> Contact me </a>
+
+      <footer class="d-flex justify-content-evenly">
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-github"></i>
+      </footer>
     </div>
-    <p class="text-center m-5"> My selected projects</p>
-    <div class="container">
-      <div class="row">
-        <div class="col bg-light d-none d-md-block"> <img
-            src="/src/Weather-app.jpg"
-            alt="Weather-app"
-            class="img-fluid rounded"
-          /></div><div class="col"><div class="project-description">
-    <h2 class="mb-4">Weather App Project</h2>
-    <p class="mb-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.</p>
-    <a href="https://aquamarine-starburst-bf640c.netlify.app/" class="btn border launch"> Launch Weather App</a>
-    </div></div></div></div>
-
-
-    <footer class="d-flex justify-content-evenly">
-      <i class="fa-brands fa-linkedin"></i>
-      <i class="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-github"></i>
-    </footer>
   </body>
 </html>
