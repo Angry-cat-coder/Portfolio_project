@@ -75,13 +75,12 @@ p {
   box-shadow: 10px 5px 5px var(--reverse-color);
 }
 img {
-  padding: 70px 150px;
-}
-.images {
+  padding: 70px 50px;
   background-color: var(--primary-color);
 }
+
 .project-description {
-  padding: 100px 50px;
+  padding: 50px 50px;
 }
 @media (max-width: 960px) {
   .hero h1 {
