@@ -6,10 +6,12 @@
 h1,
 h2 {
   font-family: "Playfair Display", serif;
+  color: var(--font-color);
 }
 p,
 h3 {
   font-family: "Poppins", sans-serif;
+  color: var(--font-color);
 }
 
 footer {
@@ -21,15 +23,22 @@ footer {
   color: var(--font-color);
   padding: 100px 0;
 }
+
 .hero p {
   font-size: 36px;
   line-height: 1.5;
   font-weight: bold;
   margin-bottom: 0px;
 }
+.about-section p {
+  font-size: 18px;
+}
 
 .hero h1 {
   font-size: 96px;
+}
+.about-section h1 {
+  font-size: 64px;
 }
 .hero h2 {
   font-size: 24px;
@@ -38,6 +47,12 @@ footer {
   font-family: "Poppins", sans-serif;
 }
 
+.about-section h2 {
+  font-size: 18px;
+}
+.about-section-content {
+  margin: 30px;
+}
 .contact {
   opacity: 0.7;
   padding: 15px 20px;
@@ -92,5 +107,9 @@ img {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
