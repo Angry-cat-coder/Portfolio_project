@@ -4,12 +4,12 @@
   --reverse-color: grey;
 }
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Playfair Display", serif;
   color: var(--font-color);
 }
-p,
-h3 {
+p {
   font-family: "Poppins", sans-serif;
   color: var(--font-color);
 }
@@ -61,8 +61,8 @@ footer {
   font-size: 18px;
 }
 
-.content-container h2 {
-  font-size: 24px;
+.content-container {
+  padding: 0 60px;
 }
 .content {
   margin: 30px;
@@ -102,7 +102,7 @@ footer {
 
 .works {
   max-width: 70%;
-  margin: 70px auto;
+  margin: 0 auto;
 }
 @media (max-width: 960px) {
   .hero h1 {

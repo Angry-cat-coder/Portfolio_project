@@ -32,30 +32,86 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container content-container mt-5">
-      <h2 class="mb-4">Front-end developer from Kyiv, Ukraine</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="container">
-            <img
-              src="src/Weather-browser.png"
-              alt="Weather-app"
-              class="img-fluid rounded shadow p-2 works"
-            />
+    <nav class="navbar navbar-expand-lg bg-navi">
+      <div class="container-fluid">
+        <a class="navbar-brand text-muted fw-semibold" href="#"
+          >Yulia Isaenko</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a
+              class="nav-link active text-muted"
+              aria-current="page"
+              href="/index.html"
+              >Home</a
+            >
+            <a class="nav-link text-muted fw-semibold" href="/about.html"
+              >About</a
+            >
+            <a class="nav-link" href="/work.html">My works</a>
+            <a class="nav-link" href="/about.html#contact">Contact</a>
+            <a
+              class="nav-link"
+              href="https://www.linkedin.com/in/yulia-isaenko-5458625b/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a class="nav-link" href="https://www.facebook.com/y.isaenko">
+              <i class="fa-brands fa-facebook"></i
+            ></a>
+            <a class="nav-link" href="https://www.facebook.com/y.isaenko">
+              <i class="fa-brands fa-github"></i
+            ></a>
           </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container content-container">
+      <h2 class="m-5">Take a look on some of my projects...</h2>
+      <div class="row mt-5">
+        <div class="col-sm-6">
           <img
             src="src/Weather-app.jpg"
             alt="Weather-app"
-            class="img-fluid rounded shadow p-2 works max-width:50%"
+            class="img-fluid rounded shadow p-2"
           />
+          <footer class="text-center">
+            <h3>Weather-app-browser Project</h3>
+            <p>Built with HTML, CSS, JS</p>
+          </footer>
         </div>
-        <div class="col-md-6 mt-5">
+        <div class="col-sm-6">
           <img
             src="src/Book.png"
             alt="Bookworm app"
             class="img-fluid rounded shadow p-2"
           />
+          <footer class="text-center">
+            <h3>Weather-app-browser Project</h3>
+            <p>Built with HTML, CSS, JS</p>
+          </footer>
         </div>
+      </div>
+      <div class="row mt-5">
+        <img
+          src="src/Weather-browser.png"
+          alt="Weather-app-browser"
+          class="works rounded shadow p-2"
+        />
+        <footer class="text-center">
+          <h3>Weather-app-browser Project</h3>
+          <p>Built with HTML, CSS, JS</p>
+        </footer>
       </div>
     </div>
   </body>
