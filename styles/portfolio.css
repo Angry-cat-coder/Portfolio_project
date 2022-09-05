@@ -140,9 +140,10 @@ footer .social-links a:hover {
 .contact_me {
   background-color: var(--primary-color);
   margin-top: 100px;
+  margin-bottom: 150px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   .hero h1 {
     font-size: 60px;
   }
